@@ -82,7 +82,7 @@ int main(int argc, char** argv)
 
     b[0] = 0;
     b[arraysize - 1] = (arraysize-1)*(arraysize - 2)/3; 
-    printf("%lld\n", diff);
+    printf("разность между посчитанными массивами: %lld\n", diff);
     
 /*
     for(int i = 99500; i < 100000; i++)  
