@@ -10,7 +10,7 @@ int main(int argc, char** argv)
     }
 
     char* extstr;
-    long N = strtol(argv[1], &extstr, 0);
+    long N = strtol(argv[1], &extstr, 0); // До какого слагаемого надо считать
 
 
 
@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 
      #pragma omp paralllel for private(sum) reduction(+:sum) schedule(auto)
         for(int i = 1; i <= N; i++)
-            sum += i;
+            sum += i; //суммируем
     
 
     printf("%lld\n", sum);
