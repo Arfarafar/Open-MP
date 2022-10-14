@@ -17,3 +17,6 @@ clean:
 
 
 .PHONY: clean
+
+run:
+    ./a.out 
