@@ -32,7 +32,7 @@ int main(int argc, char** argv){
         printf("first %ld of pi series: %Lf\n", N, pi);
 
         long double exponent2 = 0;
-        long double x = 1.0;
+        long double x = 2.0;
         #pragma omp parallel for reduction(+:exponent2) schedule(auto) // вычисляем сумму ряда для e^2
         for (int i = 0; i < N; i++) {
                 long double tmp = 1;
