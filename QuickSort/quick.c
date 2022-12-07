@@ -14,7 +14,7 @@ size_t init_with_file(int32_t* a, char* filename){
     int tmp;
     size_t i = 0;
     for(; i < MAXSIZE; i++){
-        if (fscanf(f, " %d ", &tmp) == EOF) //в файле числе через пробел
+        if (fscanf(f, " %d ", &tmp) == EOF) //в файле числa через пробел
             break;
         a[i] = tmp;
     }
