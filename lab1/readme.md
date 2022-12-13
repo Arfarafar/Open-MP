@@ -15,5 +15,11 @@
 
 ![image](https://github.com/Arfarafar/Open-MP/blob/main/lab1/Figure_1.png)
 
-Эффективность ускорения составила 82% 
+Эффективность ускорения составила 78% 
 Так как на 20 потоках программа выполнилась за 0.52с, тогда как на одном за 8,15с.
+
+![image](https://github.com/Arfarafar/Open-MP/blob/main/lab1/eff.png)
+
+Ускорение почти линейно зависит от числа потоков
+
+![image](https://github.com/Arfarafar/Open-MP/blob/main/lab1/acc.png)
